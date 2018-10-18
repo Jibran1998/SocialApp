@@ -3,8 +3,13 @@
     <group android:checkableBehavior="single">
 
         <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Dashboard" />
+        <item
             android:id="@+id/logout"
             android:icon="@drawable/ic_lock_open_black_24dp"
             android:title="Logout" />
+
     </group>
 </menu>

@@ -57,7 +57,7 @@ public class Registration extends AppCompatActivity {
                 }
                 else
                 {
-                    Intent intent=new Intent(Registration.this,MainActivity.class);
+                    Intent intent=new Intent(Registration.this,DashboardActivity.class);
                     startActivity(intent);
                 }
             }

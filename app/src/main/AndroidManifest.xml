@@ -11,20 +11,20 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".activities.LoginActivity"
-            android:parentActivityName=".activities.WelcomeActivity">
-        </activity>
+            android:parentActivityName=".activities.WelcomeActivity"></activity>
         <activity android:name=".activities.WelcomeActivity">
+
+        </activity>
+        <activity
+            android:name=".activities.Registration"
+            android:parentActivityName=".activities.WelcomeActivity"></activity>
+        <activity android:name=".activities.MainActivity"></activity>
+        <activity android:name=".activities.DashboardActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".activities.Registration"
-            android:parentActivityName=".activities.WelcomeActivity">
-        </activity>
-        <activity android:name=".activities.MainActivity">
         </activity>
     </application>
 

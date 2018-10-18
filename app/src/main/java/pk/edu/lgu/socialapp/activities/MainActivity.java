@@ -45,6 +45,12 @@ public class MainActivity extends AppCompatActivity {
                                 // User chose the "Settings" item, show the app settings UI...
                                 return true;
 
+                            case R.id.dashboard:
+                                Intent intent2= new Intent(MainActivity.this,DashboardActivity.class);
+                                startActivity(intent2);
+                                // User chose the "Settings" item, show the app settings UI...
+                                return true;
+
                         }
 
                         // Add code here to update the UI based on the item selected
